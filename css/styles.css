@@ -66,7 +66,6 @@ img {
 }
 
 .header-block {
-  max-width: 100%;
   padding: 0;
   margin: 0;
   height: 72px;
@@ -75,15 +74,28 @@ img {
   background: var(--white, #fff); 
 }
 
-.container.header .logo {
-  margin: 25.5px 76px 25.5px 156px;
+.container.header {
+  padding: 0 15px;
 }
 
-.container .nav {
+.nav-block {
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 25.5px 76px 25.5px 156px;
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .nav.list {
+  display: flex;
   margin: 24px 332px 24px 0px;
   gap: 40px;
 }
@@ -93,18 +105,8 @@ img {
 }
 
 .nav-address.list {
-  margin: 24px 156px 24px 0px;
+  padding: 24px 156px 24px 0px;
   gap: 40px;
-}
-
-.logo {
-  color: var(--iris, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .logo-part-two {
