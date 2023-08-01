@@ -290,8 +290,8 @@ button {
   margin-bottom: 72px;
 }
 
-.team-item {
-  width: calc((100% - 72px) / 4);
+.team.list .team-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .item-container {
