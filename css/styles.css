@@ -410,14 +410,14 @@ button {
 }
 
 .container.footer .logo {
-  display: block;
+  display: inline-block;
   margin-left: 156px;
   padding-top: 101.5px;
+  margin-bottom: 16px;
 }
 
 .container.footer .footer-text {
   display: block;
   width: 264px;
   margin-left: 156px;
-  margin-top: 17.5px;
 }
