@@ -175,14 +175,12 @@ button {
 /* SECTION STYLES HOMEPAGE */
 
 /* order-section */
-.order-section {
-  padding: 188px 0;
-}
 
 .container.order {
   display: block;
   height: 600px;
   flex-shrink: 0;
+  padding: 188px 0;
   background: var(--navyblue, #2e2f42);
 }
 
