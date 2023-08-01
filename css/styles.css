@@ -218,14 +218,14 @@ button {
   flex-shrink: 0;
 }
 
+.service-description-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .container.service>ul {
   display: flex;
   gap: 24px;
   margin: 120px 156px;
-}
-
-.container.service>ul>li>h3 {
-  margin-bottom: 8px;
 }
 
 .service-description>li>h3 {
@@ -234,6 +234,7 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .service-description>li>p {
