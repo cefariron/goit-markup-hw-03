@@ -268,10 +268,11 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
-.container.product-image .headline-two {
-  margin-bottom: 72px;
+.product-image-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* team-list-section */
