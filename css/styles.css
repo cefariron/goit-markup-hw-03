@@ -64,6 +64,7 @@ img {
 .container {
   display: flex;
   width: 1158px;
+  margin: 0 auto;
 }
 
 .header-block {
@@ -97,8 +98,9 @@ img {
 
 .nav.list {
   display: flex;
-  margin: 24px 332px 24px 0px;
+  margin-right: 332px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .container .nav-address {
