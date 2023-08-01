@@ -348,7 +348,7 @@ button {
   display: flex;
 }
 
-.container.main-portfolio .row {
+.row {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
@@ -400,7 +400,7 @@ button {
 
 }
 
-.row-item {
+.row>li {
   width: calc((100% - 48px) / 3);
 }
 
