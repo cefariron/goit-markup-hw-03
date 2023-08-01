@@ -103,6 +103,10 @@ img {
   padding: 24px 0;
 }
 
+.nav.link {
+  padding: 24px 0;
+}
+
 .container .nav-address {
   display: flex;
 }
