@@ -64,7 +64,7 @@ img {
 .header-block {
   flex-shrink: 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff); 
+  background: var(--white, #fff);
 }
 
 .container.header {
@@ -175,12 +175,14 @@ button {
 /* SECTION STYLES HOMEPAGE */
 
 /* order-section */
+.order-section {
+  padding: 188px 0;
+}
 
 .container.order {
   display: block;
   height: 600px;
   flex-shrink: 0;
-  padding: 188px 0;
   background: var(--navyblue, #2e2f42);
 }
 
@@ -194,7 +196,7 @@ button {
   max-width: 496px;
   margin: 0 auto;
   padding-bottom: 48px;
-  
+
 }
 
 /* service-description-section */
