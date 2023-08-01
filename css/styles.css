@@ -340,10 +340,6 @@ button {
 
 /* SECTION STYLES PORTFOLIO PAGE */
 
-.container.main-portfolio {
-  display: block;
-}
-
 .container.main-portfolio .list {
   display: flex;
 }
@@ -361,10 +357,6 @@ button {
   gap: 24px;
   margin-top: 96px;
   margin-bottom: 72px;
-}
-
-.row>li {
-  background: var(--white, #fff);
 }
 
 .row-item-dscrp-container {
@@ -402,6 +394,7 @@ button {
 
 .row>li {
   width: calc((100% - 48px) / 3);
+  background: var(--white, #fff);
 }
 
 /* FOOTER */
