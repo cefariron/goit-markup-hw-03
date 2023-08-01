@@ -144,6 +144,7 @@ button {
 }
 
 .ord-btn {
+  display: block;
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -151,12 +152,15 @@ button {
   letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
-  padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  border: none;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
 }
 
 .fltr-btn {
@@ -190,9 +194,11 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
+  
 }
+
 
 /* service-description-section */
 
