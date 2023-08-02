@@ -229,7 +229,7 @@ button {
   padding: 0;
 }
 
-.service-description-item {
+.service-description .list {
   width: calc((100% - 72px) / 4);
 }
 
