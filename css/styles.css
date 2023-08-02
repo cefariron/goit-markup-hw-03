@@ -36,12 +36,19 @@ p {
 
 ul {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 img {
   display: block;
 }
+
+section,
+header, 
+footer {
+  margin: 0 auto;
+}
+
 
 /* HOVER AND FOCUS */
 .link:hover,
@@ -223,10 +230,11 @@ button {
   overflow: hidden;
 }
 
-.container.service {
+.container .service {
   flex-shrink: 0;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  width: 1128px;
+  margin: 0 auto;
 }
 
 .service-description-item {
@@ -310,8 +318,6 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 .team-item {
