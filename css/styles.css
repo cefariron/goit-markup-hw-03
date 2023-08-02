@@ -210,6 +210,10 @@ button {
   padding: 120px 0;
 }
 
+.service {
+  margin: 0 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
