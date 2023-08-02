@@ -223,9 +223,7 @@ button {
   overflow: hidden;
 }
 
-.container .service {
-  width: 1128px;
-  height: 104px;
+.container.service {
   flex-shrink: 0;
   margin: 0;
   padding: 0;
