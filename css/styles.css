@@ -411,7 +411,7 @@ button {
 }
 
 .row-item>a {
-  width: calc((100% - 48px) / 2);
+  width: calc((100% - 48px) / 3);
   background: var(--white, #fff);
 }
 
