@@ -229,7 +229,7 @@ button {
   flex-shrink: 0;
 }
 
-.service-description-item {
+.service-description .list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -312,7 +312,7 @@ button {
   justify-content: center;
 }
 
-.team>li {
+.team-item {
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -366,7 +366,7 @@ button {
 .container.main-portfolio .filter-button {
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .row-item-dscrp-container {
@@ -402,7 +402,7 @@ button {
 
 }
 
-.row>li>a {
+.row-item>a {
   width: calc((100% - 48px) / 2);
   background: var(--white, #fff);
 }
