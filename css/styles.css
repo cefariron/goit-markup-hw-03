@@ -180,7 +180,7 @@ button {
   border-radius: 4px;
 }
 
-/* SECTION STYLES HOMEPAGE */
+/* MAIN STYLES HOMEPAGE */
 
 /* order-section */
 .order-section {
@@ -205,6 +205,10 @@ button {
 }
 
 /* service-description-section */
+
+.service-description-section {
+  padding: 120px 0;
+}
 
 .visually-hidden {
   position: absolute;
@@ -232,7 +236,7 @@ button {
 .container.service>ul {
   display: flex;
   gap: 24px;
-  margin: 120px 156px;
+  margin: 0 156px;
 }
 
 .service-description>li>h3 {
