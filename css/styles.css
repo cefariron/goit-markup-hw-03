@@ -241,10 +241,11 @@ button {
   width: calc((100% - 72px) / 4);
 }
 
-.container.service>ul {
+.service-description {
   display: flex;
   gap: 24px;
-  padding: 0 156px;
+  margin: 0 156px;
+  flex-wrap: wrap;
 }
 
 .service-description>li>h3 {
