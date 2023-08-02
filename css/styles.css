@@ -347,12 +347,13 @@ button {
 .section {
   padding-top: 96px;
   padding-bottom: 120px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container.main-portfolio .list {
   display: flex;
+  
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row {
@@ -429,7 +430,7 @@ button {
 .container.footer .logo {
   display: inline-block;
   padding-left: 156px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .container.footer .footer-text {
