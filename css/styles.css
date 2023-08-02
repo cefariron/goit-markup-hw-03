@@ -236,7 +236,7 @@ button {
 .container.service>ul {
   display: flex;
   gap: 24px;
-  margin: 0 156px;
+  padding: 0 156px;
 }
 
 .service-description>li>h3 {
@@ -267,7 +267,7 @@ button {
   max-width: 100%;
   height: 412px;
   flex-shrink: 0;
-  margin: 0 156px;
+  padding: 0 156px;
 }
 
 .container.product-image>ul {
@@ -292,17 +292,14 @@ button {
 
 /* team-list-section */
 
-.container.team-list {
-  display: block;
-  max-width: 100%;
-  height: 732px;
-  flex-shrink: 0;
+.team-list-section {
+  padding: 120px 0;
   background: var(--cloud, #F4F4FD);
 }
 
-.container.team-list .headline-two {
-  padding-top: 120px;
-  margin-bottom: 72px;
+.container.team-list {
+  display: block;
+  flex-shrink: 0;
 }
 
 .item-container {
