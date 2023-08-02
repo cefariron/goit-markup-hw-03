@@ -229,7 +229,7 @@ button {
   flex-shrink: 0;
 }
 
-.service-description-item {
+.service-description .list:first-child {
   width: calc((100% - 72px) / 4);
 }
 
