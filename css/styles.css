@@ -183,13 +183,12 @@ button {
 /* SECTION STYLES HOMEPAGE */
 
 /* order-section */
-
-.container.order {
-  display: block;
-  height: 600px;
-  flex-shrink: 0;
+.order-section {
   padding: 188px 0;
   background: var(--navyblue, #2e2f42);
+  color: var(--WHITE);
+  display: block;
+  flex-shrink: 0;
 }
 
 .headline-one {
