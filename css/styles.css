@@ -313,9 +313,10 @@ button {
 
 .team {
   display: flex;
+  max-width: 1128px;
   gap: 24px;
   flex-wrap: wrap;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .team-item {
