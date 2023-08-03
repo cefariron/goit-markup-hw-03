@@ -307,11 +307,6 @@ button {
   background: var(--cloud, #F4F4FD);
 }
 
-.container.team-list {
-  display: block;
-  flex-shrink: 0;
-}
-
 .item-container {
   padding: 32px 0;
 }
