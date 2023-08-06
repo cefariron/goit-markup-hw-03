@@ -35,6 +35,34 @@ p {
   padding: 0;
 }
 
+h2 {
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+h3 {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+p {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -42,12 +70,6 @@ ul {
 
 img {
   display: block;
-}
-
-section,
-header,
-footer {
-  margin: 0 auto;
 }
 
 .container {
@@ -115,7 +137,6 @@ button {
 /* HEADER MAIN STYLES */
 
 .header-block {
-  flex-shrink: 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
@@ -248,14 +269,6 @@ button {
   flex-wrap: wrap;
 }
 
-.service-description>li>p {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* product-image-section */
 
 .product-image-section {
@@ -267,26 +280,10 @@ button {
   flex-shrink: 0;
 }
 
-.container.product-image>ul>li>img {
-  width: 360px;
-  height: 300px;
-}
-
 .container.product-image>ul {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-}
-
-.headline-two {
-  color: var(--navyblue, #2e2f42);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 72px;
 }
 
 .product-image-item {
@@ -320,13 +317,8 @@ button {
   width: calc((100% - 72px) / 4);
 }
 
-.headline-three {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+.headline-team {
+  text-align: center;
 }
 
 .team-text {
@@ -403,23 +395,12 @@ button {
 }
 
 .footer-text {
-  color: var(--cloud, #f4f4fd);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.container.footer {
   display: block;
+  color: var(--cloud, #f4f4fd);
+  width: 264px;
 }
 
 .container.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.container.footer .footer-text {
-  display: block;
-  width: 264px;
 }
