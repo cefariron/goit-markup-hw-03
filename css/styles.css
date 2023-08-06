@@ -380,26 +380,16 @@ button {
 .row-item {
   width: calc((100% - 48px) / 3);
   background: var(--white, #fff);
-  border: 1px solid var(--cornflower, #E7E9FC);
-  border-top: none;
-}
-
-.row-item>a {
-  display: flex;
-  padding-bottom: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
 }
 
 .row-item-dscrp-container {
   display: flex;
-  padding: 0 16px;
+  padding: 32px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
+  border: 1px solid var(--cornflower, #E7E9FC);
+  border-top: none;
 }
 
 .headline-fltr-results {
@@ -409,6 +399,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .text-fltr-results {
