@@ -32,6 +32,7 @@ h2,
 h3,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -90,14 +91,11 @@ button {
   letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
-  align-items: flex-start;
-  gap: 10px;
   border: none;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   margin: 0 auto;
 }
 
@@ -134,10 +132,10 @@ button {
 .nav.list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav.link {
+  display: block;
   padding: 24px 0;
 }
 
@@ -241,10 +239,6 @@ button {
 }
 
 .service-description-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -252,14 +246,6 @@ button {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-}
-
-.service-description>li>h3 {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .service-description>li>p {
@@ -341,7 +327,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .team-text {
