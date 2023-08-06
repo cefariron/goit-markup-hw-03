@@ -17,7 +17,7 @@
 /* BODY MAIN STYLES */
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--SLATE);
+  color: var(--slate, #434455);
   background-color: var(--WHITE);
 }
 
@@ -148,8 +148,11 @@ button {
   padding: 24px 0;
 }
 
-.logo {
+.nav-block .logo {
   margin-right: 76px;
+}
+
+.logo {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -238,13 +241,16 @@ button {
 }
 
 .service-description-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 
 .service-description {
   display: flex;
   gap: 24px;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -254,7 +260,6 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .service-description>li>p {
@@ -326,10 +331,6 @@ button {
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 264px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -363,6 +364,12 @@ button {
   display: flex;
 }
 
+.container.main-portfolio .filter-button {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .row {
   flex-wrap: wrap;
   row-gap: 48px;
@@ -373,24 +380,26 @@ button {
 .row-item {
   width: calc((100% - 48px) / 3);
   background: var(--white, #fff);
-}
-
-.container.main-portfolio .filter-button {
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
-
-.row-item-dscrp-container {
-  padding: 32px 16px;
   border: 1px solid var(--cornflower, #E7E9FC);
   border-top: none;
 }
 
-.row>li>a>img {
-  width: 360px;
-  height: 300px;
+.row-item>a {
+  display: flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
   flex-shrink: 0;
+}
+
+.row-item-dscrp-container {
+  display: flex;
+  padding: 0 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .headline-fltr-results {
@@ -399,9 +408,7 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
   text-align: center;
-
 }
 
 .text-fltr-results {
@@ -411,7 +418,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-
 }
 
 /* FOOTER */
