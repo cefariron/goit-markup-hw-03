@@ -395,7 +395,6 @@ button {
 }
 
 .footer-text {
-  display: block;
   color: var(--cloud, #f4f4fd);
   width: 264px;
 }
